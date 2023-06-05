@@ -7,13 +7,8 @@ import { Component } from '@angular/core';
 })
 export class ProposalsComponent {
 
-  names = ['Maya','Maria','Patrick','Patricia'];
-  texts = [
-    '2 Jahre alt',
-    'Gräbt gerne Löcher',
-    'Spielt gerne',
-    'Hamsterrad-Freak'
-  ];
-  images = ['5.webp','2.webp','3.webp','4.webp'];
+  names = ['Frederick', 'Maria', 'Patrick', 'Patricia'];
+  texts = ['2 Jahre alt', 'Gräbt gerne Löcher', 'Spielt gerne', 'Hamsterrad-Freak'];
+  images = ['5.webp', '2.webp', '3.webp', '4.webp'];
 
 }

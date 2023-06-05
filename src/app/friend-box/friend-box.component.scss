@@ -1,0 +1,23 @@
+.friendrow{
+    display: flex;
+    color: rgb(0 0 0 / 80%);
+}
+
+.friend{
+
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+
+
+    img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: right;
+    }
+
+}
