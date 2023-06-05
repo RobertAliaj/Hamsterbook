@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'hamsterbook';
+postText = [
+  'Hallo, mein Name ist Freddy Hamster. Ich bin hier um Angular zu lernen.',
+  'Hey Zusammen, hier ein Bild von meinem Urlaub',
+  'Hey, mein Nahme ist Nola',
+  'Ich mag Paprika'
+];
+
+
+photos = [
+  '2.webp',
+  '3.webp',
+  '4.webp',
+  '5.webp'
+];
+
+
 }

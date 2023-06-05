@@ -1,0 +1,17 @@
+<app-profile-row 
+[name]="names[0]"
+[img]="images[0]"
+[description]="texts[0]">
+</app-profile-row>
+
+
+<div class="margin-bottom-16">
+    <b>Freundesvorschläge</b>
+</div>
+
+<app-profile-row
+*ngFor="let i of names; let index = index"
+[name]="names[index]"
+[img]="images[index]"
+[description]="texts[index]">
+</app-profile-row> 

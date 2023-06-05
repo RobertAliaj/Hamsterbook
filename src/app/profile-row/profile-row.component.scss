@@ -1,0 +1,21 @@
+.profile-row {
+
+    display: flex;
+    align-items: center;
+
+    img {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: right;
+        margin-right: 16px;
+    }
+
+    .description{
+        color: rgb(0 0 0 / 50%);
+        font-size: 12px;
+    }
+
+}
+

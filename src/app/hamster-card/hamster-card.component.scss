@@ -1,8 +1,49 @@
-.card{
-    min-height: 400px;
+.card {
+    min-height: 550px;
     background-color: white;
     width: 400px;
     border: 1px solid rgb(0 0 0 / 30%);
     border-radius: 4px;
     overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+
+    img {
+        width: 100%;
+        max-height: 400px;
+        object-fit: contain;
+    }
+
+
+    p {
+        padding: 0 16px;
+        color: rgb(0 0 0 / 80%);
+        font-size: 20px;
+    }
+
+    button {
+        width: 50%;
+        position: absolute;
+        bottom: 0;
+        padding: 8px;
+        background-color: white;
+        border: unset;
+        border-top: 1px solid rgb(0 0 0 / 30%);
+        cursor: pointer;
+        
+
+
+        &:first-child {
+            left: 0;
+        }
+
+        &:last-child {
+            right: 0;
+            border-left: 1px solid rgb(0 0 0 / 30%);
+        }
+
+        &:hover{
+            background-color: rgb(0 0 0 / 8%);
+        }
+    }
 }
